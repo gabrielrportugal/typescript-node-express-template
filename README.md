@@ -1,1 +1,1 @@
-# typescript-node-express-template
+# typescript-node-express
