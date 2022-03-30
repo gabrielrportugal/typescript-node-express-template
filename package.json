@@ -5,6 +5,9 @@
   "repository": "git@github.com:gabrielrportugal/rentalx.git",
   "author": "gabrielrportugal <gabrielrportugal@outlook.com>",
   "license": "MIT",
+  "scripts": {
+    "dev": "ts-node-dev --inspect --transpile-only --ignore-watch node_modules --respawn src/server.ts"
+  },
   "dependencies": {
     "express": "^4.17.3"
   },
@@ -20,6 +23,7 @@
     "eslint-plugin-import-helpers": "^1.2.1",
     "eslint-plugin-prettier": "^4.0.0",
     "prettier": "^2.6.1",
+    "ts-node-dev": "^1.1.8",
     "typescript": "^4.6.3"
   }
 }
